@@ -1,1 +1,6 @@
-# DAA-project
+#
+
+
+In modern urban settings, effective route planning for vehicles has become essential as traffic congestion, fuel expenses, and environmental issues continue to rise. Optimal pathfinding methods help vehicles traverse intricate road networks by finding routes that reduce travel time, distance, or fuel use. This paper explores the use of graph-based algorithms, with a focus on Dijkstra's algorithm and its variations, for vehicle routing under changing traffic conditions. By utilizing these algorithms, significant improvements in routing precision and efficiency can be achieved, benefiting individual drivers, logistics operations, and urban planning efforts alike.
+
+We are planning on making an implementation of dijkstra's algorithm in c++ for optimal vehicle path finding while considering the attributes of intersections. This could be the delay time when we come accros on some intersection caused by traffic. here, the road network will be represented as graph, nodes as the intersections, and the edges for the roads connecting theese intersections. the weight of each edge may vary. By considering the time that is consumed while approaching an intersection, we want to develop a path finding algorithm based on dijkstra that is more realistic. 
